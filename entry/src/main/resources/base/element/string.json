@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "perm_reason_read_imagevideo",
+      "value": "用于从系统相册读取图片/视频以更换头像"
+    },
+    {
+      "name": "perm_reason_camera",
+      "value": "用于拍照后作为头像使用"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "音悦听"
+    },
+    {
+      "name": "notification_reason",
+      "value": "用于显示音乐播放通知"
+    },
+    {
+      "name": "notification_label",
+      "value": "通知权限"
+    },
+    {
+      "name": "notification_description",
+      "value": "允许应用显示音乐播放相关的通知"
+    }
+  ]
+}

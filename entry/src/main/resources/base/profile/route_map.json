@@ -1,0 +1,36 @@
+{
+  "routerMap": [
+    {
+      "name": "start",
+      "pageSourceFile": "src/main/ets/pages/start.ets",
+      "buildFunction": "startBuilder",
+      "data": {
+        "description" : "广告页"
+      }
+    },
+    {
+      "name": "main",
+      "pageSourceFile": "src/main/ets/pages/mainpage.ets",
+      "buildFunction": "mainBuilder",
+      "data": {
+        "description" : "主页"
+      }
+    },
+    {
+      "name": "web_page",
+      "pageSourceFile": "src/main/ets/otherpages/web_page.ets",
+      "buildFunction": "web_pageBuilder",
+      "data": {
+        "description" : "内置网页页"
+      }
+    },
+    {
+      "name": "song_list",
+      "pageSourceFile": "src/main/ets/otherpages/song_list.ets",
+      "buildFunction": "song_listBuilder",
+      "data": {
+        "description" : "歌曲列表"
+      }
+    }
+  ]
+}

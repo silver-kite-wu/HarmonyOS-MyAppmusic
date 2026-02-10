@@ -1,0 +1,20 @@
+{
+  "src": [
+    "pages/Index",
+    "otherpages/myshezhi",
+    "otherpages/Mywailian",
+    "otherpages/touxiang_page",
+    "otherpages/name_page",
+    "otherpages/sex_page",
+    "otherpages/age_page",
+    "otherpages/birthday_page",
+    "otherpages/address_page",
+    "otherpages/num_page",
+    "pages/Playnow",
+    "otherpages/seek_page",
+    "otherpages/song_list",
+    "otherpages/web_page",
+    "otherpages/login_page",
+    "pages/mainpage"
+  ]
+}

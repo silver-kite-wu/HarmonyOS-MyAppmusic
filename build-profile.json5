@@ -1,0 +1,69 @@
+{
+  "app": {
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        },
+        "targetSdkVersion": "5.0.0(12)"
+      },
+      {
+        "name": "android",
+        "signingConfig": "default",
+        "compatibleSdkVersion": 12,
+        "runtimeOS": "OpenHarmony",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "0000001CC567B32C9B09CF7808D1A1B3D01E0B66F4549B6A313CE415F1B7E85E0D11366384729FC6FC7E2C2D",
+          "certpath": "D:/HarmonyNext/zhengshu/musicapp.cer",
+          "keyAlias": "musicapp",
+          "keyPassword": "0000001C5B8E524A20777D58ED794A4C582AE48AE756A5789AF9E56F560C2ADE6E3931F5345205A0F4747932",
+          "profile": "D:/HarmonyNext/zhengshu/musicappRelease.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "D:/HarmonyNext/zhengshu/.p12"
+        }
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default",
+            "android"
+          ]
+        }
+      ]
+    }
+  ]
+}

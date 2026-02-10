@@ -1,0 +1,137 @@
+/*
+author:wuzheng
+* time:2025/8/8
+* log:数据需补充
+ */
+//音乐数据
+export interface songtype{
+  img:string
+  name:string
+  author:string
+  url:string
+  id:number
+}
+export interface playstate{
+  time:number
+  isplay:boolean
+  playmodel:'auto'|'repeat'|'random'
+  playindex:number
+  img:string
+  name:string
+  author:string
+  duration:number
+}
+export const songlist:songtype[]=[
+  {
+    img:"https://y.qq.com/music/photo_new/T002R300x300M000002u9Brw2zqK6N_2.jpg?max_age=2592000",
+    name:"起风了",
+    author:"买辣椒也用券",
+    url:"rawfile:1.mp3",
+    id:0
+  },
+  {
+    img:"http://p1.music.126.net/sN5dTpmeJO1DhxIj1ogMLg==/109951163416453597.jpg?param=130y130",
+    name:"篝火旁",
+    author:"吕大叶/马子林/陈觅Lynne",
+    url:"rawfile:2.mp3",
+    id:1
+  },
+  {
+    img:"http://p2.music.126.net/noLfIjbLAG7nlMNWF6DRlQ==/109951171501041578.jpg?param=130y130",
+    name:"室内系的",
+    author:"钱乐多",
+    url:"rawfile:3.mp3",
+    id:2
+  },
+  {
+    img:"http://p2.music.126.net/AYNBdRxJ8EdZo4xFjp7b4Q==/109951163191178425.jpg?param=130y130",
+    name:"在你的身边",
+    author:"盛哲",
+    url:"rawfile:4.mp3",
+    id:3
+ },
+  {
+    img:"https://ts1.tc.mm.bing.net/th/id/OIP-C.0FQSOvu3OYJFe-h_sZKA6wHaNK?w=160&h=211&c=8&rs=1&qlt=90&o=6&cb=thwsc4&dpr=1.3&pid=3.1&rm=2",
+    name:"春娇与志明",
+    author:"街道办GDC/欧阳耀莹",
+    url:"rawfile:5.mp3",
+    id:4
+  },
+  {
+    img:"http://p1.music.126.net/RAG1RIUQ--9S-f_tUAJNYg==/109951164616616099.jpg?param=130y130",
+    name:"青丝",
+    author:"时光胶囊",
+    url:"rawfile:6.mp3",
+    id:5
+  },
+  {
+    img:"http://p2.music.126.net/ZZ1gmaHDMPn0AZ4mZhjN5Q==/2909307767352498.jpg?param=130y130",
+    name:"你从未离去",
+    author:"白挺",
+    url:"rawfile:7.mp3",
+    id:6
+  },
+  {
+    img:"http://p1.music.126.net/CilCoVzBdNyX9ftSGBND8g==/109951170594690300.jpg?param=130y130",
+    name:"烟火里的尘埃",
+    author:"华晨宇/宿涵",
+    url:"rawfile:8.mp3",
+    id:7
+  },
+  {
+    img:"http://p2.music.126.net/zNFY3slPz3q84Rm4QYD31g==/109951171440510134.jpg?param=130y130",
+    name:"画离弦 (坐骑版)",
+    author:"DJ无恙",
+    url:"rawfile:9.mp3",
+    id:8
+  },
+  {
+    img:"http://p2.music.126.net/a4KYp477snGHe3ZyjVpe1w==/109951165351505570.jpg?param=130y130",
+    name:"偏爱",
+    author:"张芸京",
+    url:"rawfile:10.mp3",
+    id:9
+  },
+  {
+    img:"http://p2.music.126.net/fb9FdbOFgmWXG33RUsjEqQ==/109951171874067483.jpg?param=130y130",
+    name:"褪黑素",
+    author:"梓渝",
+    url:"rawfile:11.mp3",
+    id:10
+  },
+  {
+    img:"http://p2.music.126.net/CDhYcShQKH2VAMENuCxWWQ==/109951164166513349.jpg?param=130y130",
+    name:"悬溺",
+    author:"葛东琪",
+    url:"rawfile:12.mp3",
+    id:11
+  },
+  {
+    img:"http://p2.music.126.net/Zh2zyUBllkMhS2iBVATiEA==/109951170608279505.jpg?param=130y130",
+    name:"唯一",
+    author:"邓紫棋",
+    url:"rawfile:13.mp3",
+    id:12
+  },
+  {
+    img:"http://p2.music.126.net/LAGOy6uic266kSOrxvUjMw==/109951164906803317.jpg?param=130y130",
+    name:"大雪",
+    author:"奶泡",
+    url:"rawfile:14.mp3",
+    id:13
+  },
+  {
+    img:"http://p2.music.126.net/qTNk77OmUIJebH6kFInJ4A==/2246302255592282.jpg?param=130y130",
+    name:"Catch My Breath",
+    author:"Kelly Clarkson",
+    url:"rawfile:15.mp3",
+    id:14
+  },
+  {
+    img:"http://p2.music.126.net/UyDVlWWgOn8p8U8uQ_I1xQ==/7934075907687518.jpg?param=130y130",
+    name:"此生不换",
+    author:"青鸟飞鱼",
+    url:"rawfile:16.mp3",
+    id:15
+  }
+]
