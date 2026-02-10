@@ -1,7 +1,6 @@
 /*
-author:wuzheng
+author:silver-kite
 * time:2025/9/17
-* log:AI
  */
 import common from '@ohos.app.ability.common'
 import preferences from '@ohos.data.preferences'
