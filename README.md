@@ -1,4 +1,4 @@
-# MyAppmusic - HarmonyOS Next 音乐播放应用
+# MyAppmusic - HarmonyOS Next入门 音乐播放应用
 
 <div align="center">
 
@@ -55,7 +55,6 @@
 ### 🎵 核心播放功能
 
 - **多数据源支持**: 支持本地rawfile、网络URL和本地文件播放
-- **播放模式切换**: 自动播放、单曲循环、随机播放三种模式
 - **播放控制**: 播放/暂停、上一首/下一首、进度拖拽
 - **播放状态同步**: 迷你播放器与主播放页面状态实时同步
 - **状态持久化**: 应用重启后自动恢复上次播放状态
@@ -145,7 +144,7 @@
 - **HarmonyOS 设备**: 5.0.0(12) 或更高版本
 - **设备类型**: 手机、平板、2in1设备
 - **存储空间**: 至少 100MB 可用空间
-- **网络**: 需要网络连接（用于在线音乐播放）
+- **网络**: 需要网络连接（用于图片显示）
 
 ### 开发工具
 
@@ -160,7 +159,7 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/yourusername/MyAppmusic.git
+git clone https://github.com/silver-kite-wu/HarmonyOS-MyAppmusic.git
 cd MyAppmusic
 ```
 
@@ -238,7 +237,7 @@ MyAppmusic/
 │   │   ├── main/
 │   │   │   ├── ets/               # ArkTS源码
 │   │   │   │   ├── Uitl/          # 工具类
-│   │   │   │   │   └── preferences.ets    # 偏好设置
+│   │   │   │   │   └── preferences.ets    
 │   │   │   │   ├── components/    # 组件
 │   │   │   │   │   ├── my_page.ets        # 我的页面
 │   │   │   │   │   ├── pinglun.ets        # 评论页面
@@ -332,7 +331,6 @@ MyAppmusic/
 - **选择歌曲**: 在主页的推荐列表中点击歌曲
 - **播放控制**: 使用播放/暂停、上一首/下一首按钮
 - **进度控制**: 拖动进度条调整播放进度
-- **播放模式**: 点击模式按钮切换播放模式（自动/循环/随机）
 
 #### 3. 迷你播放器
 
@@ -375,7 +373,7 @@ avplayerClass.playmodel = 'random';
 
 #### 网页跳转
 
-长按应用图标可复制链接，点击图标可直接跳转到网页。
+点击图标可直接跳转到网页。
 
 ---
 
@@ -581,7 +579,7 @@ Closes #123
 ```
 MIT License
 
-Copyright (c) 2026 wuzheng
+Copyright (c) 2026 silver-kite
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -608,21 +606,19 @@ SOFTWARE.
 
 ### 作者信息
 
-- **作者**: wuzheng
-- **邮箱**: your.email@example.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
+- **作者**: silver-kite
+- **邮箱**: wu481369364@qq.com
+- **GitHub**: https://github.com/silver-kite-wu
 
 ### 项目链接
 
-- **项目主页**: [https://github.com/yourusername/MyAppmusic](https://github.com/yourusername/MyAppmusic)
-- **问题反馈**: [https://github.com/yourusername/MyAppmusic/issues](https://github.com/yourusername/MyAppmusic/issues)
-- **文档**: [https://github.com/yourusername/MyAppmusic/wiki](https://github.com/yourusername/MyAppmusic/wiki)
+- **项目主页**: https://github.com/silver-kite-wu/HarmonyOS-MyAppmusic.git
 
 ### 社区支持
 
-- **HarmonyOS开发者社区**: [https://developer.huawei.com/consumer/cn/](https://developer.huawei.com/consumer/cn/)
-- **HarmonyOS论坛**: [https://developer.huawei.com/consumer/cn/forum/](https://developer.huawei.com/consumer/cn/forum/)
-- **DevEco Studio文档**: [https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/ide-overview-V5](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/ide-overview-V5)
+- **HarmonyOS开发者社区**: [https://developer.huawei.com/consumer/cn/]
+- **HarmonyOS论坛**: [https://developer.huawei.com/consumer/cn/forum/]
+- **DevEco Studio文档**: [https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/ide-overview-V5]
 
 ---
 
@@ -630,24 +626,8 @@ SOFTWARE.
 
 感谢所有为这个项目做出贡献的开发者！
 
-特别感谢：
-- HarmonyOS开发团队提供的优秀开发框架
-- 开源社区的贡献和支持
-
 ---
 
-## 📊 项目统计
-
-<div align="center">
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/MyAppmusic?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/MyAppmusic?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/MyAppmusic)
-![GitHub license](https://img.shields.io/github/license/yourusername/MyAppmusic)
-
-</div>
-
----
 
 <div align="center">
 
