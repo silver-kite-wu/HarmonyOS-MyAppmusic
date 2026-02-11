@@ -46,7 +46,7 @@
 | **开发语言** | ArkTS |
 | **目标平台** | HarmonyOS 5.0.0(12) |
 | **支持设备** | Phone, Tablet, 2in1 |
-| **作者** | wuzheng |
+| **作者** | silver-kite |
 
 ---
 
